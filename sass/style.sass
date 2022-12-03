@@ -1,0 +1,459 @@
+@font-face 
+    font-family: "DMSerifDisplay"
+    src: url(../fonts/DMSerifDisplay-Regular.ttf)
+    font-weight: regular
+    font-style: normal
+
+@font-face 
+    font-family: "Jost"
+    src: url(../fonts/Jost-Regular.ttf)
+    font-weight: regular
+    font-style: normal
+
+* 
+    box-sizing: border-box
+body
+    background: #F5F5F5
+html
+    font-family: "Jost"
+    font-weight: regular
+    
+.container  
+    max-width: 1200px
+    margin: 0 auto
+
+.main-section
+    &__header
+        min-height: 106px
+        background: #F5F5F5
+    &__header-container
+        min-height: 106px
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &__list
+        display: inline-flex
+    &__list-item
+        font-weight: 400
+        font-size: 19px
+        text-transform: capitalize
+        letter-spacing: 0.4px
+        margin-right: 40px
+        &:last-child
+            margin-right: 0px
+        a
+            text-decoration: none 
+            color: #292F36
+        a:hover
+            color: #CDA274
+    &__content
+        height: 831px
+        background-image: url(../img/main-image.png)
+        background-position: center
+        background-repeat: no-repeat
+        background-size: cover
+    &__wrapper
+        max-width: 650px
+        padding-top: 188px
+    &__title
+        font-family: 'DM Serif Display'
+        font-weight: 600
+        font-size: 80px
+        line-height: 96px
+        letter-spacing: 0.22px
+        color: #292F36
+        margin-bottom: 19px
+    &__text
+        font-weight: 400
+        font-size: 22px
+        line-height: 33px
+        letter-spacing: 0.22px
+        color: #4D5053
+        margin-bottom: 35px
+
+.button
+    &__btn
+        display: flex
+        flex-direction: row
+        align-items: center
+        height: 71px
+        background: #292F36
+        border: 2px solid #292F36
+        border-radius: 18px
+        img
+            width: 30px
+            height: 46px
+    &__text
+        font-size: 18px
+        line-height: 27px
+        letter-spacing: 0.72px
+        color: #FFFFFF
+        margin-right: 21px
+        margin-left: 34px
+    &_another-btn
+        background: #F4F0EC
+    &_join-text
+        color: #4D5053
+    // -------------------------features section---------------------
+
+.features
+    &__container
+        min-height: 595px
+        display: flex
+        align-items: center
+        justify-content: center
+        margin: 0 auto
+        max-width: 1200px
+    &__text-wrapper
+        margin-right: 100px
+        &:last-child
+            margin-right: 0px
+.text-wrapper
+    max-width: 317px
+    text-align: center
+    &__title
+        font-family: 'DM Serif Display'
+        font-weight: 600
+        font-size: 25px
+        line-height: 39px
+        letter-spacing: 0.22px
+        color: #292F36
+        margin-bottom: 17px
+    &__text
+        font-size: 22px
+        line-height: 33px
+        text-align: center
+        letter-spacing: 0.22px
+        color: #4D5053
+        margin-bottom: 68px
+    &__next
+        display: inline-flex
+        height: 30px
+        align-items: center
+        img
+            width: 17px
+            height: 13px
+    &__more
+        font-size: 18px
+        color: #4D5053
+        margin-right: 10px
+        text-transform: capitalize
+// -------------------challenging design--------------------
+.challenging-design
+    &__container
+        display: flex
+        justify-content: space-between
+    &__left-wrapper
+        max-width: 515px
+        padding-top: 38px
+    &__img
+         margin-bottom: 140px
+    &__call
+        display: inline-flex
+        height: 93px
+        align-items: center
+        margin-bottom: 50px
+        img
+            margin-right: 20px
+    &__text
+        font-size: 24px
+        line-height: 36px
+        letter-spacing: 0.22px
+        color: #4D5053
+
+.letter
+    &__title
+        font-family: 'DM Serif Display'
+        font-weight: 600
+        font-size: 50px
+        line-height: 65px
+        letter-spacing: 0.22px
+        color: #292F36
+        margin-bottom: 42px
+    &__text
+        font-weight: 400
+        font-size: 22px
+        color: #4D5053
+        line-height: 33px
+        letter-spacing: 0.22px
+        margin-bottom: 40px
+// -----------------people thinks--------------
+.people-thinks
+    &__container
+        min-height: 675px
+        background: #F4F0EC
+        border-radius: 70px
+        padding: 50px
+        display: flex
+        align-items: center
+        justify-content: center
+        text-align: center
+    &__content
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+    &__title
+        margin-bottom: 47px
+
+.ppl-th-block
+    width: 354px
+    height: 287px
+    background: #FFFFFF
+    border-radius: 30px
+    padding: 50px 35px 45px
+    margin-right: 18px
+    &:last-child
+        margin-right: 0px
+    &__designers
+        height: 77px
+        display: inline-flex
+        align-items: center
+        margin-bottom: 25px
+        img
+            margin-right: 20px
+    &__title
+        font-family: 'DM Serif Display'
+        font-weight: 600
+        font-size: 25px
+        line-height: 38px
+        letter-spacing: 0.22px
+        color: #292F36
+    &__descr
+        font-weight: 400
+        font-size: 18px
+        line-height: 27px
+        letter-spacing: 0.22px
+        color: #4D5053
+    &__text
+        font-weight: 400
+        font-size: 20px
+        line-height: 30px
+        letter-spacing: 0.22px
+        color: #4D5053
+// -------------logo-section----------------
+
+.logo-section
+    &__container
+        min-height: 356px
+        display: flex
+        justify-content: space-around
+        align-items: center
+        flex-wrap: wrap
+
+// ----------------------recent projects-------------
+
+.recent-projects
+    &__container
+        text-align: center
+    &__words
+        text-align: center
+    &__gallery
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        flex-wrap: wrap
+        margin-bottom: 80px
+.gallery
+    &__block
+        margin-bottom: 61px
+        img
+            margin-bottom: 24px
+    &__bottom
+        max-width: 590px
+        display: flex
+        justify-content: space-between
+    &__title
+        font-family: 'DM Serif Display'
+        font-weight: 400
+        font-size: 24px
+        line-height: 38px
+        letter-spacing: 0.22px
+        color: #292F36
+    &__descr
+        font-size: 22px
+        line-height: 33px
+        letter-spacing: 0.22px
+        color: #4D5053
+    &__text
+
+    &__button
+        height: 70px
+        width: 70px   
+        background: #F4F0EC
+        border-radius: 100px
+        border: none
+        padding: 26px
+        
+        
+
+// ----------------numbers-------------
+.numbers
+    background: #F4F0EC
+    &__container
+        min-height: 475px
+        display: flex
+        align-items: center
+        justify-content: space-around
+    &__block
+        width: 300px
+        height: 195px
+        border-right: 1px solid #CDA274
+        text-align: center
+        &:last-child
+            border-right: none
+    &__num
+        font-family: 'DM Serif Display'
+        font-weight: 400
+        font-size: 85px
+        line-height: 128px
+        letter-spacing: 1.7px
+        color: #CDA274
+    &__text
+        font-size: 22px
+        line-height: 33px
+        letter-spacing: 0.22px
+        color: #4D5053
+
+// --------------------recent blogs-----------
+.recent-blogs
+    &__container
+        margin-bottom: 100px
+    &__words
+        margin-top: 143px
+        text-align: center  
+    &__cards-box
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        justify-content: space-around
+        
+    &__cards
+        width: 387px
+        height: 515px
+        padding: 21px
+        border: 1px solid #E7E7E7
+        border-radius: 62px
+        margin-bottom: 40px
+
+.cards
+    &__image
+        position: relative
+        margin-bottom: 15px
+    &__text
+        font-family: 'DM Serif Display'
+        font-weight: 600
+        font-size: 25px
+        line-height: 35px
+        letter-spacing: 0.5px
+        color: #292F36
+        margin-bottom: 20px
+    &__little-card
+        display: inline
+        background: #FFFFFF
+        border-radius: 8px 8px 8px 0px
+        padding: 9px 10px 11px
+        position: absolute
+        left: 24px
+        bottom: 29px
+        z-index: 50
+        font-size: 16px
+        line-height: 24px
+        letter-spacing: 0.22px
+        color: #4D5053
+    &__descr
+        font-size: 16px
+        line-height: 24px
+        letter-spacing: 0.22px
+        color: #4D5053 
+    &__bottom
+        display: flex
+        justify-content: space-between
+        height: 52px
+        align-items: center
+    &__button
+        height: 52px
+        width: 52px
+        background: #F4F0EC 
+        border-radius: 100px
+        border: none
+        padding: 17px 
+// --------------------join us-------------
+.join
+    &__container
+        min-height: 414px
+        background: #292F36
+        border-radius: 70px
+        display: flex
+        text-align: center
+        align-items: center
+        justify-content: center
+
+    &__title
+        font-family: 'DM Serif Display'
+        font-weight: 600
+        font-size: 50px
+        line-height: 75px
+        letter-spacing: 0.22px
+        color: #FFFFFF
+        margin-bottom: 9px
+    &__text
+        font-size: 22px
+        line-height: 33px
+        letter-spacing: 0.22px
+        color: #FFFFFF
+        margin-bottom: 31px
+    &__button
+        display: flex
+        justify-content: center
+       
+.footer
+    min-height: 584px
+    display: flex
+    align-items: center
+    &__content
+        display: flex
+        flex-wrap: wrap
+    &__block
+        max-width: 326px
+    &__text
+        font-size: 22px
+        line-height: 33px
+        letter-spacing: 0.22px
+        color: #4D5053
+        margin-bottom: 29px
+        margin-top: 15px
+    &__icons
+        img
+            margin-right: 40px
+.block-word
+    max-width: 321px
+    margin-left: 83px
+    &__title
+        font-family: 'DM Serif Display'
+        font-weight: 600
+        font-size: 25px
+        line-height: 38px
+        letter-spacing: 0.22px
+        color: #292F36
+        margin-bottom: 21px
+    &__list
+        font-size: 22px
+        line-height: 33px
+        letter-spacing: 0.22px
+        color: #4D5053
+        li
+            margin-bottom: 30px
+
+.copyright
+    border-top: 1px solid #E5E5E5
+    min-height: 104px
+    display: flex
+    justify-content: center
+    align-items: center
+    &__text
+        font-size: 22px
+        line-height: 33px
+        letter-spacing: 0.22px
+        color: #4D5053
+        span
+            color: #CDA274
